@@ -1,5 +1,5 @@
 # AltoroMutual Dockerfile
-It is a Dockerfile to run Altoro Mutual in a container
+It is a Dockerfile to run Altoro Mutual inside a container
 
 ```Dockerfile
 FROM tomcat:7.0.109-jdk8-openjdk
@@ -13,3 +13,8 @@ RUN cp /usr/local/tomcat/AltoroJ/build/libs/altoromutual.war /usr/local/tomcat/w
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
 ````
+
+docker build -t altoromutual .
+docker run -p 8080:8080 -d --name altoromutual altoromutual
+docker stop altoromutual
+docker start altoromutual
