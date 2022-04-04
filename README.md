@@ -25,3 +25,6 @@ pass: admin<br>
 <br>
 user: jsmith<br>
 pass: demo1234<br>
+
+Official project:
+https://github.com/HCL-TECH-SOFTWARE/AltoroJ
