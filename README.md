@@ -1,7 +1,7 @@
 # AltoroMutual Dockerfile
 It is a Dockerfile to run Altoro Mutual in a container
 
-'''Dockerfile
+```Dockerfile
 FROM tomcat:7.0.109-jdk8-openjdk
 RUN apt install -y git unzip
 RUN git clone --branch AltoroJ-3.3 https://github.com/HCL-TECH-SOFTWARE/AltoroJ.git
@@ -12,4 +12,4 @@ RUN cd AltoroJ && /opt/gradle/gradle-6.9.2/bin/gradle build
 RUN cp /usr/local/tomcat/AltoroJ/build/libs/altoromutual.war /usr/local/tomcat/webapps
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
-''''
+````
