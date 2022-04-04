@@ -13,11 +13,12 @@ RUN cp /usr/local/tomcat/AltoroJ/build/libs/altoromutual.war /usr/local/tomcat/w
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
 ````
-
+```Bash
 docker build -t altoromutual .<br>
 docker run -p 8080:8080 -d --name altoromutual altoromutual<br>
 docker stop altoromutual<br>
 docker start altoromutual<br>
+```
 <br>
 Altoro Mutual users:<br>
 user: admin<br>
