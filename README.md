@@ -18,3 +18,10 @@ docker build -t altoromutual .<br>
 docker run -p 8080:8080 -d --name altoromutual altoromutual<br>
 docker stop altoromutual<br>
 docker start altoromutual<br>
+
+Altoro Mutual users:
+user: admin
+pass: admin
+
+user: jsmith
+pass: demo1234
