@@ -14,10 +14,10 @@ EXPOSE 8080
 CMD ["catalina.sh", "run"]
 ````
 ```Bash
-docker build -t altoromutual .<br>
-docker run -p 8080:8080 -d --name altoromutual altoromutual<br>
-docker stop altoromutual<br>
-docker start altoromutual<br>
+docker build -t altoromutual .
+docker run -p 8080:8080 -d --name altoromutual altoromutual
+docker stop altoromutual
+docker start altoromutual
 ```
 <br>
 Altoro Mutual users:<br>
