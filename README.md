@@ -19,6 +19,8 @@ docker run -p 8080:8080 -d --name altoromutual altoromutual
 docker stop altoromutual
 docker start altoromutual
 ```
+The website will run:<br>
+http://localhost:8080/altoromutual<br>
 <br>
 Altoro Mutual users:<br>
 user: admin<br>
